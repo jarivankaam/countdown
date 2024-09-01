@@ -1,0 +1,31 @@
+.section-header {
+  background: #b1d5ff;
+  max-height: 85px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  h1 {
+    font-family: "Passion One", cursive;
+    font-weight: bold;
+    font-size: 64px;
+    @media screen and (max-width: 991px) {
+      font-size: 20px;
+    }
+  }
+
+  .cta-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .cta {
+      padding: 15px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #d2e7ff;
+      color: black;
+      border-radius: 15px;
+    }
+  }
+}

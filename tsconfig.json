@@ -1,0 +1,9 @@
+
+{
+"compilerOptions": {
+"module": "commonjs",
+"target": "ES5",
+"outDir": "./public/dist",
+"rootDir": "./private/ts"
+}
+}

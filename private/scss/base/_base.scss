@@ -1,0 +1,15 @@
+@import './vars/vars';
+@import './vars/imports';
+@import './grid_system/grid_system';
+
+
+@import './flex/flex_classes';
+@import './text/text_classes';
+@import './utilities/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
